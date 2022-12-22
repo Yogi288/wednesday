@@ -21,6 +21,12 @@ public class Method_Overloading {
 		System.out.println("Student Pass :" + mark);
 
 	}
+	
+	private void Student_Data(int1 age){
+		System.out.println("Student age :"+age")
+		
+		
+	}
 
 	public static void main(String[] args) {
 		Method_Overloading data = new Method_Overloading();
@@ -28,6 +34,7 @@ public class Method_Overloading {
 		data.Student_Data(24);
 		data.Student_Data(5.96f);
 		data.Student_Data(true);
+		data.Student_Data(25);
 	}
 
 }
